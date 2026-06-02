@@ -12,5 +12,27 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ---
 
+## Run Backend Tests Locally
+
+The backend tests are in the root `tests/` directory and follow the AAA (Arrange-Act-Assert) pattern.
+
+1. Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+2. Run all backend tests:
+
+```bash
+python -m pytest -q
+```
+
+3. Optional: run a single test file:
+
+```bash
+python -m pytest -q tests/test_signup.py
+```
+
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
